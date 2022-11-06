@@ -1,25 +1,51 @@
 .full_body{
-    background-color: rgba(127, 255, 212, 0.661);
+    background-color: rgba(169, 188, 181, 0.661);
+    padding: 10px;
+}
+
+.header{
+    text-align: center;
     padding: 20px;
 }
 
+.page_contents{
+    background-color: rgba(136, 149, 144, 0.661);
+    padding: 10px;
+    border-radius: 1%;
+}
+
 .profile{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    padding: 0px 50px 0px 0px;
+    padding: 0px 50px 0px 10px;
+    text-align: center;
 }
 
 .profile_content{
-    background-color: rgba(1, 72, 36, 0.722);
+    margin: auto;
+    padding-left: 20px;
+    margin-left: 100px;
+    border-radius: 10%;
     color: black;
     justify-content: center;
-    border-radius: 10%;
+    border: 3px solid rgba(55, 55, 55, 0.722);
+    background-color: rgba(118, 125, 122, 0.722);
+}
+
+.paragraph{
+    text-align: start;
+    justify-content: center;
 }
 
 .image{
     border-radius: 100%;
     width: 300px;
     height: 300px;
+}
+
+.drop_btn{
+    padding: 10px;
 }
 
 .link_container{
@@ -30,7 +56,16 @@
 }
 
 .link{
-    background-color: white;
-    border-radius: 15%;
-    font-size: 20px;
+    width: 160px;
+}
+
+.fav_artist{
+    background-color: var(--aquamarine);
+}
+
+.table_container{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: azure;
+    border-radius: 0% 0% 10% 10%;
 }
